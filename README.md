@@ -1,6 +1,6 @@
 # Vapor Apple-Pie Server
 
-Create PostgeSQL or other Fluent compatible server and update its credentials in line 48 of Sources/App/configure.swift
+Create MySQL compatible server and update its credentials in line 41 of Sources/App/configure.swift
 
 ## Try it out
 
