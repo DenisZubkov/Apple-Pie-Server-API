@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/DenZu/Desktop/Apple-Pie-Server-API/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include"
+    export *
+}
