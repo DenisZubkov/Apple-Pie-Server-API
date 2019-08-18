@@ -38,7 +38,7 @@ public func configure(
 //    databaseConfig.add(database: db, as: .sqlite)
 //    services.register(databaseConfig)
     
-    let mysqlConfig = MySQLDatabaseConfig(hostname: "116.203.197.130", port: 3306, username: "root", password: "fox", database: "wordsNew", capabilities: .default, characterSet: .utf8_general_ci, transport: .unverifiedTLS)
+    let mysqlConfig = MySQLDatabaseConfig(hostname: "mysql", port: 3306, username: "root", password: "fox", database: "wordsNew", capabilities: .default, characterSet: .utf8_general_ci, transport: .unverifiedTLS)
     let mysql = MySQLDatabase(config: mysqlConfig)
 
     var databaseConfig = DatabasesConfig()
