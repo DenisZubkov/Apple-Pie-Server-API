@@ -10,6 +10,7 @@ import Vapor
 /// [Learn More →](https://docs.vapor.codes/3.0/getting-started/structure/#routesswift)
 public func routes(_ router: Router) throws {
     // MARK: - JSON
+    
     // MARK: - GET /categories
     router.get("categories") { req -> Future<[Category]> in
         return Category.query(on: req).all()
